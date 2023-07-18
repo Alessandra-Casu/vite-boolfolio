@@ -9,8 +9,10 @@ export default {
 </script>
 
 <template>
-  <h1>Boolpress</h1>
-  <ProjectList> </ProjectList>
+  <div class="container">
+    <h1>Boolpress</h1>
+    <ProjectList> </ProjectList>
+  </div>
 </template>
 
 <style lang="scss">
