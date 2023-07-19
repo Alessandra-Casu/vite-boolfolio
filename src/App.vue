@@ -1,18 +1,23 @@
 <script>
-import ProjectList from "./components/ProjectList.vue";
+import AppNav from "./components/AppNav.vue";
+import AppFooter from "./components/AppFooter.vue";
 
 export default {
   components: {
-    ProjectList,
+    AppNav,
+    AppFooter,
   },
 };
 </script>
 
 <template>
+  <AppNav />
+
   <div class="container">
-    <h1>Boolpress</h1>
-    <ProjectList> </ProjectList>
+    <router-view></router-view>
   </div>
+
+  <AppFooter />
 </template>
 
 <style lang="scss">
